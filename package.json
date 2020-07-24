@@ -1,0 +1,26 @@
+{
+  "name": "bw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rdf dist && parcel build src/index.html && echo '/* /index.html 200' >> dist/_redirects"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "parcel-bundler": "^1.12.4",
+    "prop-types": "^15.7.2"
+  }
+}
